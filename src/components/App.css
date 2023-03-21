@@ -4,3 +4,70 @@
     background-color: rgb(26, 26, 26);
     border: 0cap;
 }
+.cart-widget:hover{
+    margin-right: 20px;
+    color: rgb(59, 59, 209);
+    border: 0cap;
+    border-radius: 20%;
+    transition: 0,5s;
+}
+
+.counterBtns{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 300px;
+    height: 320px;
+    justify-items: auto;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btnMenos{
+    margin: 5px;
+    background-attachment: fixed;
+    color: aliceblue;
+    background-color: rgb(29, 28, 28);
+    border-radius: 20%;
+}
+.btnMenos:hover{
+    margin: 5px;
+    background-attachment: fixed;
+    border-radius: 20%;
+    color: black;
+    background-color: rgb(224, 31, 31);
+    transition: 0,5s;
+}
+
+.btnMas{
+    margin: 5px;
+    background-attachment: fixed;
+    color: aliceblue;
+    background-color: rgb(29, 28, 28);
+    border-radius: 20%;
+}
+.btnMas:hover{
+    margin: 5px;
+    background-attachment: fixed;
+    border-radius: 20%;
+    color: black;
+    background-color: rgb(32, 165, 32);
+    transition: 0,5s;
+}
+
+.agrCarrito{
+    margin: 5px;
+    background-attachment: fixed;
+    border-radius: 2%;
+    color: aliceblue;
+    background-color: rgb(29, 28, 28);
+}
+.agrCarrito:hover{
+    margin: 5px;
+    background-attachment: fixed;
+    border-radius: 2%;
+    color: aliceblue;
+    background-color: rgb(59, 59, 209);
+    transition: 0,5s;
+}
+
+

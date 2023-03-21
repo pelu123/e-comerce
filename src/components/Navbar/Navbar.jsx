@@ -1,6 +1,6 @@
 import React from 'react';
-import '../App.css';
 import './navbar.css';
+import '../App.css'
 import LogoBtn from './LogoBtn/LogoBtn';
 import NavbarBtns from './NavbarBtns/NavbarBtns';
 import CartWidget from '../CartWidget/CartWidget';

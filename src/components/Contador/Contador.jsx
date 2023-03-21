@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import '../App.css'
 
 const Contador = () => {
     const [contador, setContador] = useState(1)
@@ -12,13 +13,18 @@ const Contador = () => {
             setContador(contador - 1)
         }
     }
-
+    const onAdd = (contador) =>{
+        console.log(`Agregaste ${contador} unidades al carrito`)
+    }
     return (
-        <>
-            <button onClick={() => modificarContador("-")} className='btnMenos'>-</button>
+        <div className='counterBtns'>
+            <button onClick={() => modificarContador("-")} className='btn btnMenos'>-</button>
             {contador}
-            <button onClick={() => modificarContador("+")} className='btnMas'>+</button>
-        </>
+            <button onClick={() => modificarContador("+")} className='btn btnMas'>+</button>
+            <div>
+                <button onClick={() => onAdd(contador)} className='btn agrCarrito'>Agregar al carrito</button>
+            </div>
+        </div>
     );
 }
 
