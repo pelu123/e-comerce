@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "nombre":"Smart-phone",
+        "marca":"Samsung",
+        "modelo":"Galaxy Z Flip 4",
+        "stock": 7,
+        "precio": 25000,
+        "img": "../img/SamsungGalaxyZFlip4.jpg"
+    },
+    {
+        "id": 2,
+        "nombre":"Smart-phone",
+        "marca":"Samsung",
+        "modelo":"Galaxy M23",
+        "stock": 9,
+        "precio": 22000,
+        "img":"../img/SamsungGalaxyM23.jpg"
+    },
+    {
+        "id": 3,
+        "nombre":"Smart-phone",
+        "marca":"Samsung",
+        "modelo":"Galaxy A 04",
+        "stock": 10,
+        "precio": 15000,
+        "img":"../img/SamsungGalaxyA04.jpg"
+    },
+    {
+        "id": 4,
+        "nombre":"Head phones",
+        "marca":"Samsung",
+        "modelo":"Buds 2",
+        "stock": 9,
+        "precio": 12000,
+        "img":"../img/aurSamsungGalaxyBuds2.jpg"
+    },
+    {
+        "id": 5,
+        "nombre":"Head phones",
+        "marca":"Motorola",
+        "modelo":"Buds 085",
+        "stock": 7,
+        "precio":  10000,
+        "img":"../img/aurMotrolaBuds085.jpg"
+    },
+    {
+        "id": 6,
+        "nombre":"Head phones",
+        "marca":"Trust",
+        "modelo":"Carus Gaming",
+        "stock": 5,
+        "precio": 15000,
+        "img":"../img/aurTrustCarusGaming.jpg"
+    },
+    {
+        "id": 7,
+        "nombre":"Camaras",
+        "marca":"Canon",
+        "modelo":"E 05",
+        "stock": 4,
+        "precio": 30000,
+        "img":"../img/canonE05.jpg"
+    },
+    {
+        "id": 8,
+        "nombre":"Smart-tv",
+        "marca":"Samsung",
+        "modelo":"Hd Serie  T 4300",
+        "stock": 8,
+        "precio": 29000,
+        "img":"../img/smartTvSamsungHdSerieT4300.jpg"
+    }
+]
